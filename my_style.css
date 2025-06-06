@@ -1,0 +1,192 @@
+/* General Body Styles */
+body {
+    font-family: 'Georgia', serif, 'Times New Roman'; /* Eerie fonts */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Near black */
+    color: #c0c0c0; /* Silver/Light Grey text */
+}
+
+/* Header Styling (Tag styling for h1, h2, h3, h4) */
+.main-header {
+    background-color: #330000; /* Deep, dark red */
+    color: #ffbbbb; /* Pale red/pinkish text */
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 3px solid #660000; /* Darker red border */
+    text-shadow: 2px 2px 5px #000;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-header h2 {
+    margin: 10px 0 0 0;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #aa8888; /* Muted red/grey */
+}
+
+h3 {
+    color: #cc0000; /* Bright Red */
+    border-bottom: 1px dashed #660000;
+    padding-bottom: 5px;
+}
+h4 {
+    color: #ff3333; /* Lighter, vibrant red */
+    font-style: italic;
+}
+
+
+/* Navigation Link Styling */
+nav {
+    text-align: center;
+    background-color: #1a1a1a; /* Very dark grey */
+    padding: 15px 0;
+    border-bottom: 2px solid #440000;
+}
+
+nav a.nav-link { /* Styling links within nav */
+    color: #ff9999; /* Light red */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 8px;
+    border-radius: 0; /* Sharp edges */
+    border: 1px solid #660000;
+    background-color: #2b0000; /* Very dark red */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a.nav-link:hover, nav a.button:hover {
+    background-color: #cc0000; /* Bright Red on hover */
+    color: #fff;
+    border-color: #ff3333;
+}
+
+/* Main Content Area */
+main {
+    padding: 25px;
+    max-width: 900px;
+    margin: 30px auto; /* Center content */
+    background-color: #1f1f1f; /* Slightly lighter dark grey */
+    box-shadow: 0 0 15px rgba(255,0,0,0.3); /* Red glow */
+    border: 1px solid #440000;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 1.2em;
+    font-size: 1.1em;
+}
+
+p.camp-intro { /* Class styling for specific paragraph */
+    font-style: italic;
+    color: #ddaaaa; /* Muted reddish */
+    border-left: 3px solid #660000;
+    padding-left: 10px;
+}
+
+/* Image Styling - ID Styling */
+#main-camp-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border: 5px solid #4d0000; /* Dark Red border */
+    box-shadow: 0 0 10px #000;
+}
+
+/* Button Styling (Class styling) */
+.button {
+    display: inline-block;
+    background-color: #990000; /* Strong Red */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid #550000; /* Darker red border */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #cc0000; /* Brighter Red */
+    color: #000; /* Black text on hover for contrast */
+    border-color: #ff3333;
+    transform: scale(1.05);
+}
+
+.register-button { /* Specific class for register button */
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    border: 1px solid #660000;
+}
+
+th, td {
+    border: 1px solid #440000; /* Dark red cell borders */
+    padding: 12px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #550000; /* Very Dark Red */
+    color: #ffcccc; /* Pale red text */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2a0000; /* Darkest red for alternate rows */
+}
+tbody tr:nth-child(odd) {
+    background-color: #1f1f1f; /* Dark grey for odd rows */
+}
+
+tbody tr:hover {
+    background-color: #770000; /* Dark red hover */
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #000; /* Black */
+    color: #990000; /* Red text */
+    margin-top: 40px;
+    border-top: 3px solid #330000;
+    font-style: italic;
+}
+
+/* Additional class and ID for demonstration (if needed elsewhere, already used thematically) */
+.highlight-section { /* Example: could be used for an urgent warning */
+    background-color: #400000; /* Dark red background */
+    padding: 15px;
+    border: 2px dashed #ff0000; /* Bright red dashed border */
+    color: #ffdddd;
+}
+
+#special-offer { /* Example: could be a "special curse" or "damned soul discount" */
+    border: 2px solid #8B0000; /* DarkRed solid border */
+    padding: 10px;
+    text-align: center;
+    background-color: #1a0000;
+    color: #ff6666;
+}
